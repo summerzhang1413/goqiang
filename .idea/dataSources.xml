@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2667386851">
+    <data-source source="LOCAL" name="MySQL - goqiang@localhost" uuid="6d0a569d-a66c-4223-a744-6c0cd902e6fd">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/goqiang</jdbc-url>
+      <user-name>ifox</user-name>
+      <user-password>dfc3dfccdfc5dfd2dfd9dfdedfdfdfcedfc3dfc5df9edf9bdf9b</user-password>
+      <schema-pattern>goqiang.*</schema-pattern>
+      <default-schemas>goqiang.*</default-schemas>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

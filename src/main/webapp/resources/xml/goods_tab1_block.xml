@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<goods_tab1_block> 
+    <title1>请更新版本</title1> 
+    <price1>0</price1> 
+    <num1>0</num1> 
+	<person1>请更新版本</person1>
+	<date1>请更新版本</date1>
+
+	<title2>欧莱雅润发精油</title2> 
+    <price2>79</price2> 
+    <num2>5</num2> 
+	<person2>全国包邮</person2>
+	<date2>2014年10月10日22:00</date2>
+
+	<title3>兰芝礼盒</title3>
+    <price3>410</price3> 
+    <num3>2</num3> 
+	<person3>全国包邮</person3>
+	<date3>2014年10月10日22:00</date3>
+
+	<title4>VICHY薇姿</title4> 
+    <price4>129</price4> 
+    <num4>2</num4> 
+	<person4>全国包邮</person4>
+	<date4>2014年10月10日22:00</date4>
+
+	<title5>雅思兰黛洁面乳</title5> 
+    <price5>169</price5> 
+    <num5>2</num5> 
+	<person5>全国包邮</person5>
+	<date5>2014年10月10日22:00</date5>
+
+	<title6>梦妆</title6> 
+    <price6>180</price6>
+    <num6>2</num6>
+	<person6>全国包邮</person6>
+	<date6>2014年10月10日22:00</date6>
+
+	<title7>大风炊火锅</title7> 
+    <price7>128</price7> 
+    <num7>4</num7> 
+	<person7>成都金牛区蜀汉路150号</person7>
+	<date7>2014年10月10日22:00</date7>
+
+	<title8>DHC橄榄卸妆油</title8> 
+    <price8>159</price8> 
+    <num8>4</num8> 
+	<person8>全国包邮</person8>
+	<date8>2014年10月10日22:00</date8>
+</goods_tab1_block>

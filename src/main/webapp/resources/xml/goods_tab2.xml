@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<goods_tab2> 
+    <title1>苹果iPad-mini</title1> 
+    <price1>2788</price1> 
+    <num1>2</num1> 
+	<person1>每天两个-包邮</person1>
+	<date1>2014年10月31日22:00</date1>
+
+	<title2>安踏男鞋</title2> 
+    <price2>239</price2> 
+    <num2>4</num2> 
+	<person2>全国包邮</person2>
+	<date2>2014年10月10日22:00</date2>
+
+	<title3>阿迪达斯NEO秋季上衣（男）</title3> 
+    <price3>569</price3> 
+    <num3>2</num3> 
+	<person3>全国包邮</person3>
+	<date3>2014年10月10日22:00</date3>
+
+	<title4>ASICS新款运动鞋（男）</title4> 
+    <price4>1269</price4> 
+    <num4>1</num4> 
+	<person4>全国包邮</person4>
+	<date4>2014年10月10日22:00</date4>
+
+	<title5>理肤泉洗护套装</title5> 
+    <price5>658</price5> 
+    <num5>2</num5> 
+	<person5>全国包邮</person5>
+	<date5>2014年10月10日22:00</date5>
+
+	<title6>珂芮柏蒂手表（女）</title6> 
+    <price6>679</price6> 
+    <num6>2</num6>
+	<person6>全国包邮</person6>
+	<date6>2014年10月10日22:00</date6>
+
+	<title7>采乐洗发水套装</title7> 
+    <price7>89</price7> 
+    <num7>2</num7> 
+	<person7>全国包邮</person7>
+	<date7>2014年10月10日22:00</date7>
+
+	<title8>阿迪达斯外衣（男）</title8> 
+    <price8>1200</price8> 
+    <num8>1</num8> 
+	<person8>全国包邮</person8>
+	<date8>2014年10月10日22:00</date8>
+</goods_tab2>

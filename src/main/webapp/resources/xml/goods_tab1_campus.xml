@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<goods_tab1_campus> 
+    <title1>万州烤鱼王</title1> 
+    <price1>48</price1> 
+    <num1>3</num1> 
+	<person1>干锅鸡（成都川师成龙校区现代花园店）</person1>
+	<date1>每天提供</date1>
+
+	<title2>vencell自行车行</title2> 
+    <price2>6元/小时</price2> 
+    <num2>3</num2> 
+	<person2>免费租车1天（成都川师成龙校区现代花园吉家超市1楼）</person2>
+	<date2>每天提供</date2>
+
+	<title3>主流网咖</title3> 
+    <price3>4元/小时</price3> 
+    <num3>3</num3> 
+	<person3>免费上网2小时(每天14:00之前，成都川师成龙校区现代花园3楼)</person3>
+	<date3>每天提供</date3>
+
+	<title4>老鸭汤免单券</title4> 
+    <price4>26</price4> 
+    <num4>10</num4> 
+	<person4>成都川师狮子山校区南门商业楼3楼</person4>
+	<date4>每天提供</date4>
+
+	<title5>迪拜眼镜师大店</title5>
+    <price5>118</price5> 
+    <num5>2</num5> 
+	<person5>自然美美瞳隐形眼镜（师大花园商业街3栋2楼）</person5>
+	<date5>每天提供</date5>
+
+	<title6>卡芙造型</title6> 
+    <price6>20</price6> 
+    <num6>2</num6> 
+	<person6>每天2人免费理发（成都川师成龙校区现代花园1楼）</person6>
+	<date6>每天提供</date6>
+
+	<title7>口蘑面川师店</title7> 
+    <price7>8</price7> 
+    <num7>5</num7> 
+	<person7>中奖后店内价值8元的面食任意挑选（成都川师狮子山校区商业城1楼）</person7>
+	<date7>每天提供</date7>
+
+	<title8>木瓜烤肉川师店</title8> 
+    <price8>45</price8> 
+    <num8>3</num8> 
+	<person8>免单券+酒水券（成都川师狮子山校区商业城3楼）</person8>
+	<date8>每天提供</date8>
+</goods_tab1_campus>

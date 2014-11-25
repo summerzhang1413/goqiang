@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<goods_tab1_top> 
+    <title1>雅思兰黛</title1> 
+    <price1>540</price1> 
+    <num1>2</num1> 
+	<person1>全国包邮</person1>
+	<date1>2014年10月10日22:00</date1>
+
+	<title2>花花公子男鞋</title2>
+    <price2>228</price2> 
+    <num2>2</num2> 
+	<person2>全国包邮</person2>
+	<date2>2014年10月10日22:00</date2>
+
+	<title3>考研真题</title3> 
+    <price3>46</price3> 
+    <num3>5</num3> 
+	<person3>全国包邮</person3>
+	<date3>2014年10月10日22:00</date3>
+
+	<title4>安踏外衣（女）</title4> 
+    <price4>359</price4> 
+    <num4>2</num4> 
+	<person4>全国包邮</person4>
+	<date4>2014年10月10日22:00</date4>
+
+	<title5>百雀羚套装</title5> 
+    <price5>215</price5> 
+    <num5>2</num5> 
+	<person5>全国包邮</person5>
+	<date5>2014年10月10日22:00</date5>
+</goods_tab1_top>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="NewPersistenceUnit">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <class>com.springapp.domain.Manager</class>
+        <class>com.springapp.domain.User</class>
+        <class>com.springapp.domain.Suggestion</class>
+        <class>com.springapp.domain.GoodsSubmit</class>
+        <class>com.springapp.domain.UsersWin</class>
+        <class>com.springapp.domain.UsersForget</class>
+        <class>com.springapp.domain.GoodsInfo</class>
+        <class>com.springapp.domain.City</class>
+        <class>com.springapp.domain.OpenWin</class>
+        <class>com.springapp.domain.Notice</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/goqiang"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+            <property name="hibernate.connection.username" value="ifox"/>
+            <property name="hibernate.connection.password" value="ifoxstudio411"/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+</persistence>
