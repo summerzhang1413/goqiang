@@ -39,6 +39,8 @@ public class AndroidPostController {
     public OpenWinService openWinService;
     @Autowired
     public BaseDao baseDao;
+    @Autowired
+    public GoodsOrderService goodsOrderService;
 
     @RequestMapping(value = "/login")
     public String appLogin(Model model, HttpServletRequest request) throws DaoException{
@@ -199,13 +201,14 @@ public class AndroidPostController {
         String tel = request.getParameter("tel");
         String edit = request.getParameter("edit");
         if (index.equals("1")){
-            User user_ByName = userService.findByName(edit);
-            if (user_ByName != null){
+            //统一用户名不能修改
+//            User user_ByName = userService.findByName(edit);
+//            if (user_ByName != null){
                 model.addAttribute("info", "此用户名已被注册");
-            }else {
-                userService.updateUsernameByTel(edit, tel);
-                model.addAttribute("info", "修改成功");
-            }
+//            }else {
+//                userService.updateUsernameByTel(edit, tel);
+//                model.addAttribute("info", "修改成功");
+//            }
         }else if (index.equals("2")){
             userService.updatePwdByUsername(edit, username);
             model.addAttribute("info", "修改成功");
@@ -476,6 +479,37 @@ public class AndroidPostController {
         baseDao.save(goodsOrder);
         model.addAttribute("info", "提交成功");
         return "android_order_result";
+    }
+    @RequestMapping(value = "/notesbuy")
+    public String notesBuy(Model model, HttpServletRequest request) throws DaoException, ServiceException{
+        String username = request.getParameter("username");
+        List<GoodsOrder> goodsOrderList = new ArrayList<GoodsOrder>();
+        goodsOrderList = goodsOrderService.findByName(username);
+        StringBuffer info = new StringBuffer();
+
+        for (int i=0; i < goodsOrderList.size(); i++){
+            GoodsOrder goodsOrder = new GoodsOrder();
+            goodsOrder = goodsOrderList.get(i);
+            String flag = goodsOrder.getFlag();
+            String goodsName = goodsOrder.getGoodsname();
+            String goodsInfo = goodsOrder.getGoodsinfo();
+            String goodsPrice = goodsOrder.getGoodsprice();
+            String goodsNum = goodsOrder.getGoodsnum();
+            info.append(flag);
+            info.append("|");
+            info.append(goodsName);
+            info.append("|");
+            info.append(goodsInfo);
+            info.append("|");
+            info.append(goodsPrice);
+            info.append("|");
+            info.append(goodsNum);
+            info.append("|");
+
+        }
+        model.addAttribute("info", info.toString());
+
+        return "android_notesbuy_result";
     }
 
 }
