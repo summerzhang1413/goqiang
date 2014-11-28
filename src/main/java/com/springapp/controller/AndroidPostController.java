@@ -1,5 +1,6 @@
 package com.springapp.controller;
 
+import com.springapp.dao.BaseDao;
 import com.springapp.domain.*;
 import com.springapp.exception.DaoException;
 import com.springapp.exception.ServiceException;
@@ -36,6 +37,8 @@ public class AndroidPostController {
     public GoodsInfoService goodsInfoService;
     @Autowired
     public OpenWinService openWinService;
+    @Autowired
+    public BaseDao baseDao;
 
     @RequestMapping(value = "/login")
     public String appLogin(Model model, HttpServletRequest request) throws DaoException{
@@ -443,8 +446,36 @@ public class AndroidPostController {
             }
 
         }
+    }
+    @RequestMapping("/ordersubmit")
+    public String ordersubmit(Model model, HttpServletRequest request) throws DaoException{
+        String username = request.getParameter("username");
+        String tel = request.getParameter("tel");
+        String address = request.getParameter("address");
+        String goodsname = request.getParameter("goodsname");
+        String info = request.getParameter("info");
+        String price = request.getParameter("price");
+        String num = request.getParameter("num");
+        java.util.Date now = new Date();
+        String formatString = "yyyy-MM-dd HH:mm:ss";
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(formatString);
+        String datetime = simpleDateFormat.format(now);
+        String flag = "0";//0代表未完成订单,1代表已经完成订单
 
+        GoodsOrder goodsOrder = new GoodsOrder();
+        goodsOrder.setDatetime(datetime);
+        goodsOrder.setUsername(username);
+        goodsOrder.setTel(tel);
+        goodsOrder.setAddress(address);
+        goodsOrder.setGoodsname(goodsname);
+        goodsOrder.setGoodsinfo(info);
+        goodsOrder.setGoodsprice(price);
+        goodsOrder.setGoodsnum(num);
+        goodsOrder.setFlag(flag);
 
+        baseDao.save(goodsOrder);
+        model.addAttribute("info", "提交成功");
+        return "android_order_result";
     }
 
 }

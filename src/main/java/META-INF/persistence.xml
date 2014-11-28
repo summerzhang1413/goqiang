@@ -13,6 +13,8 @@
         <class>com.springapp.domain.City</class>
         <class>com.springapp.domain.OpenWin</class>
         <class>com.springapp.domain.Notice</class>
+        <class>com.springapp.domain.Couriers</class>
+        <class>com.springapp.domain.GoodsOrder</class>
         <properties>
             <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/goqiang"/>
             <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>

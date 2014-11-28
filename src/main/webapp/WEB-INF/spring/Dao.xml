@@ -33,6 +33,8 @@
                 <value>com.springapp.domain.City</value>
                 <value>com.springapp.domain.OpenWin</value>
                 <value>com.springapp.domain.Notice</value>
+                <value>com.springapp.domain.GoodsOrder</value>
+                <value>com.springapp.domain.Couriers</value>
             </list>
         </property>
         <property name="dataSource" ref="dataSource"/>
